@@ -1,0 +1,15 @@
+{
+  "name": "google-sheets-cli",
+  "version": "1.0.0",
+  "description": "CLI para interactuar con Google Sheets",
+  "main": "index.js",
+  "bin": {
+    "google-sheets-cli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "googleapis": "^106.0.0"
+  }
+}
